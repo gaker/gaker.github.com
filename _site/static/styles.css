@@ -1,0 +1,69 @@
+/* Basic Resets */
+html, body, table, img, div,
+h1, h2, h3, h4, h5, h6, ul, hr {
+	margin:		0;
+	padding:	0;
+	border:		none;
+}
+
+/* Reset the Reset */
+em		{ font-style: italic; }
+strong	{ font-weight: bold; }
+table	{ border: none; }
+th, td	{ border:none; }
+
+h1, h2, h3, h4, h5, h6 {
+	font:					28px/1 "Helvetica Neue", Arial, Helvetica;
+}
+
+.clear 	{ clear: both; }
+
+/* html5 elements */
+aside, section, article {
+	display:				block;
+}
+
+html { 
+	background-color: 		#EDF1F3; 
+	margin:					25px auto;
+	text-align:				center;
+}
+
+hr {
+	border-top:				1px solid #ddd;
+	border-bottom:			1px solid #fff;
+	margin-bottom:			10px;
+}
+
+#content {
+	font:					15px/1 Georgia, "Times New Roman", serif;
+	margin:					0 auto;
+	text-align:				left;
+	padding:				25px;
+	width:					750px;
+}
+
+#content a {
+	text-decoration:		none;
+	color:					#000;
+	font-weight:			bold;
+	font-size:				17px;
+}
+
+ul li {
+	list-style: 			none;
+}
+
+footer {
+	color:					#000;
+	font:					10px/1 "Helvetica Neue", Arial, Helvetica;
+	height:					40px;
+	margin:					10px auto 25px auto;
+	padding:				0 5px;
+	text-align:				right;
+/*	text-shadow:			#EDFEFF 0px 1px;*/
+	width:					800px;
+}
+
+footer a { color:#000; text-decoration:none; }
+a:hover { border-bottom:1px dashed; }
